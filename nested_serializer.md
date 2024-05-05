@@ -159,7 +159,7 @@ class MusicianSerializer(serializers.ModelSerializer):
 ```
 # Part 2:
 ## Nested Serializer:
-``bash
+```bash
 from .models import *
 from rest_framework import serializers, fields
 
@@ -203,7 +203,7 @@ class MusicianSerializer(serializers.ModelSerializer):
         return instance
 ```
 ## Output
-```bash
+``bash
 # Post data to the MusicianListView to create.
 {
     "first_name": "ganesh",
