@@ -203,7 +203,7 @@ class MusicianSerializer(serializers.ModelSerializer):
         return instance
 ```
 ## Output
-``bash
+```bash
 # Post data to the MusicianListView to create.
 {
     "first_name": "ganesh",
@@ -246,6 +246,6 @@ class MusicianSerializer(serializers.ModelSerializer):
         }
     ]
 }
-``
+```
 
 
